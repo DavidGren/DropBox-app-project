@@ -10,14 +10,15 @@ You need **Yarn** packaged manager
 ###  Instaling
 You need to install this app with **Yarn**
 
-```markdown
+```
 yarn install
+```
 
 ### How to run
 To run this app use this command
 
-```markdown
+```
 yarn start -o
-
+```
 
 
