@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# DropBox-app - CRM
+This app combine storage data ob Drop Box and a Customer-relationship management (CRM). 
 
-You can use the [editor on GitHub](https://github.com/DavidGren/DropBox-app-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What does this app
+It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth with the possibility to save data to be. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting started
+You need **Yarn** packaged manager
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###  Instaling
+You need to install this app with **Yarn**
 
 ```markdown
-Syntax highlighted code block
+yarn install
 
-# Header 1
-## Header 2
-### Header 3
+### How to run
+To run this app use this command
 
-- Bulleted
-- List
+```markdown
+yarn start -o
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DavidGren/DropBox-app-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
