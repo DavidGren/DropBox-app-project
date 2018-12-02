@@ -1,13 +1,13 @@
 <template>
-  <div class="login">
+  <v-app class="login-wraper">
+    <v-content>
     <h1>Login</h1>
-    <label for="login">Login / email: </label>
-      <input id="login" type="email" />
-    <label for="password">Password: </label>
-      <input id="password" type="password" />
-    <router-link to="/home"><button>Create account</button></router-link>
-    <router-link to="/sign-in"><button>Sign in</button></router-link>
-  </div>
+        <v-text-field placeholder="Email" id="login" type="email" />
+        <v-text-field placeholder="Password" id="password" type="password" />
+      <router-link to="/sign-in"><v-btn color="info">Create account</v-btn></router-link>
+      <router-link to="/home"><v-btn color="info">Sign in</v-btn></router-link>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
 

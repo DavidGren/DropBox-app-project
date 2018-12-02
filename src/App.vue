@@ -1,33 +1,30 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-.login {
-  display: grid;
-  width: 30vw;
-  margin: 0 auto;
-  transform: translateY(50%);
-  text-align: center;
-  border: 1px solid #dedede;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+export default {
+  name: 'App',
+  components: {
+  },
+  data () {
+    return {
+      //
     }
   }
+}
+</script>
+<style>
+.login-wraper {
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40vh;
+  box-shadow: 10px 10px 5px #777;
+  width: 30vw;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(calc(50%));
+  padding: 5px 40px;
+  border: 1px solid #aaa;
 }
 </style>
