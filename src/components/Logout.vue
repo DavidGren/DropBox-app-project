@@ -6,11 +6,14 @@
 </template>
 
 <script>
+import fb from 'firebase';
+
 export default {
   name: 'Logout',
   methods: {
     logout() {
       this.$router.replace('/login');
+      fb.auth().signOut();
     }
   }
 }
